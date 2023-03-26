@@ -1,5 +1,7 @@
 body {
-  font-family: "Avenir Next";
+  margin: 0;
+  /* font-family: "Avenir Next"; */
+  text-align: center;
 }
 
 li {
@@ -27,16 +29,26 @@ li {
   padding: 100px 80px;
 }
 
+.copy-container {
+  text-align: center;
+}
+
 .copy-container h1 {
   font-size: 140px;
+  margin: 0px;
 }
 
 .copy-container h2 {
   font-size: 60px;
+  margin: 0px;
 }
 
 .copy-container span {
   color: #ff4a4a;
+}
+
+.copy-container img {
+  width: 20%;
 }
 
 .contents {
