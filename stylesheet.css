@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  /* font-family: "Avenir Next"; */
+  font-family: sans-serif;
   text-align: center;
 }
 
@@ -9,15 +9,17 @@ li {
 }
 
 .header {
-  background-color: #26d0c9;
+  background-color: #404146;
   color: #fff;
-  height: 90px;
+  height: 80px;
 }
 
 .header-logo {
   float: left;
-  font-size: 36px;
-  padding: 20px 40px;
+  font-size: 24px;
+  padding: 25px 40px;
+  font-weight: bold;
+  letter-spacing: 8px;
 }
 
 .header-list li {
@@ -36,11 +38,16 @@ li {
 .copy-container h1 {
   font-size: 140px;
   margin: 0px;
+  font-weight: 900;
+  letter-spacing: 16px;
 }
 
 .copy-container h2 {
-  font-size: 60px;
+  font-size: 64px;
+  font-family: 'open sans',arial,sans-serif;
   margin: 0px;
+  font-weight: 100;
+  src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
 }
 
 .copy-container span {
